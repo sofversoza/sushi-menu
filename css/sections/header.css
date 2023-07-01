@@ -23,11 +23,16 @@
 .header__logo h4 {
   padding-left: 30px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 45px;
   text-transform: uppercase;
-  font-family: var(--playfair-display);
-  color: #fff;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--black-400);
   opacity: 0.8;
+  display: flex;
+}
+
+.header__logo span {
+  color: #fff;
 }
 
 .header__menu {
@@ -37,22 +42,26 @@
 .header__menu,
 .header__menu-mobile {
   padding: 20px;
-  flex: 1.236;
+  flex: 1.254;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 64px;
+  gap: 40px;
   list-style: none;
 }
 
 .header__menu li {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   cursor: pointer;
+}
+
+.header__menu li:hover {
+  opacity: 0.65;
 }
 
 .header__menu li img {

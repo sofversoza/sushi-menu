@@ -56,7 +56,7 @@ a {
 }
 
 .sushi__subtitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
   color: var(--primary-color);
@@ -100,6 +100,7 @@ a {
 @media screen and (max-width: 1024px) {
   .about-us {
     flex-direction: column;
+    margin-top: 10px;
   }
 
   .about-us__image {
@@ -158,7 +159,7 @@ a {
 
 
 /* START: header media querie */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1055px) {
   .header__nav {
     background: var(--primary-color);
   }
@@ -205,12 +206,16 @@ a {
     line-height: 60px;
   }
 
+  .hero-content {
+    margin-top: 0;
+  }
+
   .hero-content-info {
     padding: 32px;
   }
 
   .hero-content-info h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .hero-content-info p {
@@ -229,9 +234,19 @@ a {
 /* END: hero media queries */
 
 /* START: popular media queries */
+@media screen and (max-width: 1024px) {
+  .popular-foods__filters {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .popular-foods {
     padding: 64px 32px;
+  }
+
+  .popular-foods__title {
+    font-size: 50px;
   }
 
   .popular-foods__card,
@@ -278,7 +293,9 @@ a {
 
 /* START: trending media queries */
 @media screen and (max-width: 1024px) {
-  .trending-sushi {
+
+  .trending-sushi,
+  .trending-drinks {
     flex-direction: column;
   }
 
@@ -312,3 +329,13 @@ a {
 }
 
 /* END: trending media queries */
+
+/* START: footer us media queries */
+@media screen and (max-width: 550px) {
+  .footer {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+/* END: footer media queries */

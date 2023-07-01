@@ -1,7 +1,7 @@
 .hero {
   display: flex;
-  /* 74 is the size of our navbar */
-  min-height: calc(100vh - 74px);
+  /* 85 is the size of our navbar */
+  min-height: calc(100vh - 85px);
   overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .hero-image img {
-  width: 120%;
+  width: 113%;
   height: 100%;
   object-fit: contain;
 }
@@ -29,7 +29,7 @@
 
 .hero-image h2 {
   position: absolute;
-  bottom: 0;
+  bottom: 3%;
   padding: 20px;
   font-family: var(--playfair-display);
   font-weight: 700;
@@ -39,10 +39,11 @@
 }
 
 .hero-content {
-  flex: 1.219;
+  flex: 1.2365;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: -15px;
 }
 
 .hero-content-info {
@@ -55,9 +56,9 @@
 }
 
 .hero-content-info h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 600;
-  line-height: 80px;
+  line-height: 70px;
   font-family: var(--playfair-display);
   color: var(--secondary-color);
 }
@@ -71,16 +72,16 @@
 }
 
 .hero-content__buttons {
-  margin: 30px 10px;
+  margin: 10px 10px 35px 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 45px;
 }
 
 .hero-content__order-button {
   padding: 20px;
   border-radius: 36px;
-  min-width: 212px;
+  min-width: 215px;
   outline: none;
   border: none;
   background: var(--secondary-color);
@@ -106,13 +107,13 @@
 
 .hero-content__play-button img {
   margin-right: 12px;
-  width: 46px;
-  height: 46px;
+  width: 49px;
+  height: 49px;
   object-fit: contain;
 }
 
 .hero-content__testimonial {
-  padding: 32px 64px;
+  padding: 38px 64px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -125,7 +126,7 @@
 }
 
 .hero-content__customer h4 {
-  font-size: 62px;
+  font-size: 65px;
   font-weight: 400;
   font-family: var(--playfair-display);
 }
