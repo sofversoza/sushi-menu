@@ -86,6 +86,10 @@
   background: var(--secondary-color);
   border-radius: 64px;
   cursor: pointer;
+  animation: bouncey 0.8s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
 }
 
 .popular-foods__button img {

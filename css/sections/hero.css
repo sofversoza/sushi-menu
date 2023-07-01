@@ -107,16 +107,16 @@
 }
 
 .hero-content__buttons {
-  margin: 20px 5px 30px 5px;
+  margin: 29px 5px 30px 5px;
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
 }
 
 .hero-content__order-button {
-  padding: 20px;
+  padding: 18px;
   border-radius: 36px;
-  min-width: 215px;
+  min-width: 190px;
   outline: none;
   border: none;
   background: var(--secondary-color);
@@ -125,25 +125,31 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
+  animation: bouncey 0.8s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
 }
 
 .hero-content__play-button {
   border: none;
   outline: none;
+  border-radius: 34px;
   background: transparent;
+  padding: 10px 15px;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
-  color: var(--black-200);
+  color: var(--black-400);
   font-family: var(--plus-jakarta-sans);
   cursor: pointer;
 }
 
 .hero-content__play-button img {
-  margin-right: 12px;
-  width: 49px;
-  height: 49px;
+  margin-right: 3px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
